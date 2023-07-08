@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+    <body>
+        <div class="container">
+        <div class="header"> <h1>Network</h1> </div>
+        <div class="feed-title">
+            <h1>Your Feed</h1>
+        </div>
+        <div class="feed-content">
+            <div class="col-left">
+                <div class="user-card">
+                    <img src="https://i.imgur.com/HviyXom.png" alt="avatar icon">
+                    <a href="#">Add an avatar</a>
+                    <h1>James Doe</h1>
+                    
+                </div>
+            </div>
+            <div class="col-right">
+                <div class="card" id="card-1">
+                    <div class="row1">
+                        <span >
+                            <h2>Neil M</h2>
+                        </span>
+                        <span class="likes">
+                            <span id="post-1" >9 like(s)</span>
+                            <button class="btn" onclick="like(0)">Like <i class="fa-regular fa-thumbs-up"></i></button>
+                        </span>
+                    </div>     
+                    <div class="row2">
+                        <p>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+                    </div>
+                </div>
+                <div class="card" id="card-2">
+                    <div class="row1">
+                        <span><h2>Nichole K</h2></span>
+                        <span class="likes">
+                            <span id="post-2" >12 like(s)</span>
+                            <button class="btn" onclick="like(1)">Like <i class="fa-regular fa-thumbs-up"></i></button>
+                        </span>
+                    </div>    
+                    <div class="row2">
+                        <p>Just finished my <a href="#">next comic</a>, check it out </p>
+                    </div>
+                </div>
+                <div class="card" id="card-2">
+                    <div class="row1">
+                    <span> 
+                        <h2>Jim R</h2>
+                    </span> 
+                    <span class="likes">
+                        <span id="post-3" >9 like(s)</span>
+                        <button class="btn" onclick="like(2)">Like <i class="fa-regular fa-thumbs-up"></i></button>
+                    </span>
+                    </div>     
+                    <div class="row2">
+                        <p>I can't stop listening to the <a href="#">new album</a> 
+                        who else is liking it ? </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
